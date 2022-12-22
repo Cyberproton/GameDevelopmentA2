@@ -1,0 +1,27 @@
+{
+  "states": {
+    "join": {
+      "path": "join",
+      "offset": {
+        "y": -20
+      }
+    },
+    "idle": [
+      "idle_0",
+      "idle_1",
+      "idle_2",
+      "idle_3",
+      "idle_4",
+      "idle_5"
+    ],
+    "run": "run",
+    "attack": {
+      "path": "attack",
+      "step": 0.5
+    },
+    "hurt": {
+      "path": "hurt",
+      "step": 0.3
+    }
+  }
+}

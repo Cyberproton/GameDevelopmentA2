@@ -1,0 +1,25 @@
+{
+  "states": {
+    "idle": {
+      "path": "idle",
+      "step": 0.2,
+      "scale": 0.75
+    },
+    "run": {
+      "path": "run",
+      "step": 0.20,
+      "flip": true,
+      "scale": 0.75
+    },
+    "attack": {
+      "path": "attack",
+      "step": 0.2,
+      "flip": true,
+      "offset": {
+        "x": -10,
+        "y": -10
+      },
+      "scale": 0.75
+    }
+  }
+}

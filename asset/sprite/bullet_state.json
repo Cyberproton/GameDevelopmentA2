@@ -1,0 +1,14 @@
+{
+  "states": {
+    "warm_up": {
+      "path": "warm_up"
+    },
+    "run": {
+      "path": "run"
+    },
+    "explode": {
+      "path": "explode",
+      "step": 0.2
+    }
+  }
+}
